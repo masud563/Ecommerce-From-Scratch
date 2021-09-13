@@ -21,7 +21,7 @@ if(mysqli_num_rows($result) > 0)
 		$_SESSION['id'] = $id;
 		$_SESSION['email'] = $email;
 	}
-	header("Location: welcome.php");
+	header("Location: index.php");
 }
 else
 {

@@ -2,7 +2,8 @@
 Into this file, we create a layout for registration page.
 -->
 <?php
-include_once('header.php');
+include_once('site-header.php');
+include_once('site-footer.php');
 include_once('link.php');
 ?>
 
@@ -42,7 +43,7 @@ include_once('link.php');
   </div>
   <div class="form-group"> 
     <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" name="create" class="btn btn-primary">Submit</button>
+      <button type="submit" name="create" class="btn btn-primary">Submit</button> <a href="login.php" >Already a User?</a>
     </div>
   </div>
 </form>

@@ -2,10 +2,10 @@
 in this file we write code for connection with database.
 -->
 <?php
-$conn = mysqli_connect("localhost","root","","Registrationdb");
+$conn = mysqli_connect("localhost","root","","ecommerce");
 
 if(!$conn)
 {
-	echo "Database connection faild...";
+	echo "Database connection failed...";
 }
 ?>

@@ -3,7 +3,8 @@ Into this file, we create a layout for login page.
 -->
 
 <?php
-include_once('header.php');
+include_once('site-header.php');
+
 include_once('link.php');
 
 ?>
@@ -26,8 +27,11 @@ include_once('link.php');
   </div>
   <div class="form-group"> 
     <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" name="login" class="btn btn-primary">Login</button>
+      <button type="submit" name="login" class="btn btn-primary">Login</button> <a href="registration.php" >Not a User Yet?</a>
     </div>
   </div>
 </form>
 </div>
+<?php
+  include_once('site-footer.php');
+  ?>

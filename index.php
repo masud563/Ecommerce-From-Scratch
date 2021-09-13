@@ -21,7 +21,7 @@
                 <img src="asset/mart-logo.png">
             </div>
             <div class="banner-searchbar">
-                <input type="search" placeholder="Search Products"> 
+                <input type="search" name="serach" placeholder="Search Products"> 
                 <a href="#" ><img src="asset/seach-icon.svg" ></a>
             </div>
             <div class="checkout">       
@@ -29,7 +29,7 @@
                     <a><img src="asset/shopping-cart.svg" width="18px"> </a>
                 </div>
                 <div class="avatar">
-                    <a href="welcome.php"><img src="asset/avatar.svg" width="18px"> </a>
+                    <a href="login.php"><img src="asset/avatar.svg" width="18px"> </a>
                 </div>
             </div> <!--end of checkout-->
 
